@@ -22,6 +22,6 @@ public class AppTest {
 	@Test
 	public void testOfTheKeyIsAlphanumeric() {
 		App obj = new App();
-		Assert.assertEquals(36, obj.generalUniqueKey().length());
+		Assert.assertEquals(36, obj.generateUniqueKey().length());
 	}
 }
