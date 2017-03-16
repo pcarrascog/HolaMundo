@@ -24,4 +24,10 @@ public class AppTest {
 		App obj = new App();
 		Assert.assertEquals(36, obj.generateUniqueKey().length());
 	}
+	
+	@Test
+	public void testOfKeyisEquals() {
+		App obj = new App();
+		Assert.assertEquals("A",obj.generateUniqueKey());
+	}
 }
