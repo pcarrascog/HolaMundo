@@ -28,6 +28,6 @@ public class AppTest {
 	@Test
 	public void testOfKeyisEquals() {
 		App obj = new App();
-		Assert.assertEquals("A",obj.generateUniqueKey());
+		Assert.assertEquals(36, obj.generateUniqueKey().length());
 	}
 }
