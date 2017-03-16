@@ -22,12 +22,12 @@ public class AppTest {
 	@Test
 	public void testOfTheKeyIsAlphanumeric() {
 		App obj = new App();
-		Assert.assertEquals(36, obj.generateUniqueKey().length());
+		Assert.assertEquals(33, obj.generateUniqueKey().length());
 	}
 	
 	@Test
 	public void testOfKeyisEquals() {
 		App obj = new App();
-		Assert.assertEquals(36, obj.generateUniqueKey().length());
+		Assert.assertEquals(32, obj.generateUniqueKey().length());
 	}
 }
