@@ -37,5 +37,6 @@ public class AppTest {
 	public void testOfKeyisNewStatus() {
 		App obj = new App();
 		Assert.assertEquals(36, obj.generateUniqueKey().length());
+		
 	}
 }
