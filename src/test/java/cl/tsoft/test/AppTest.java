@@ -29,11 +29,15 @@ public class AppTest {
 	public void testOfKeyisEquals() {
 		App obj = new App();
 		Assert.assertEquals(36, obj.generateUniqueKey().length());
-	}	@Test
+	}	
+	
+	@Test
 	public void testOfKeyisDistinct() {
 		App obj = new App();
 		Assert.assertEquals(36, obj.generateUniqueKey().length());
 	}
+	
+	@Test 
 	public void testOfKeyisNewStatus() {
 		App obj = new App();
 		Assert.assertEquals(36, obj.generateUniqueKey().length());
