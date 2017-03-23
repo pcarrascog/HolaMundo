@@ -1,9 +1,5 @@
 package cl.tsoft.test;
 
-//import junit.framework.Test;
-//import junit.framework.TestCase;
-//import junit.framework.TestSuite;
-
 import org.junit.Assert;
 import org.junit.Test;
 
