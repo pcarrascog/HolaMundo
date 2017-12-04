@@ -22,6 +22,13 @@ public class AppTest {
 	       System.out.println("********************************************************");
 	       driver.quit();
 	   }
+	@Test
+	public void testLengthOfTheUniqueKey() {
+
+		App obj = new App();
+		Assert.assertEquals(36, obj.generateUniqueKey().length());
+
+	}
 /*
 	@Test
 	public void testLengthOfTheUniqueKey() {
