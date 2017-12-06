@@ -28,4 +28,12 @@ public class App
     	System.out.println("Hora: "+hourFormat.format(date));
     	
     }
+        public void dateTimeLocal_2() {
+    	Date date = new Date();
+    	
+    	//Caso 1: obtener la hora y salida por pantalla con formato:
+    	DateFormat hourFormat = new SimpleDateFormat("HH:mm:ss");
+    	System.out.println("Hora: "+hourFormat.format(date));
+    	
+    }
 }
